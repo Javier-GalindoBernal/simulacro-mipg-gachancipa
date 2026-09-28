@@ -1,10 +1,11 @@
 /**
  * Simulacro MIPG · Gachancipá — servidor de evidencias
+ * @OnlyCurrentDoc
  * Google Apps Script + Google Sheets (la hoja es la base de datos).
  *
  * INSTALACIÓN (resumen; detalle en docs/CONEXION-GOOGLE.md):
  *   1. Crea una hoja de cálculo nueva → Extensiones → Apps Script → pega este archivo.
- *   2. Ejecuta la función `configurar` una vez (autoriza los permisos). Copia el TOKEN que imprime el registro.
+ *   2. Ejecuta la función «configurar» una vez (autoriza los permisos). Copia el TOKEN que imprime el registro.
  *   3. Implementar → Nueva implementación → Aplicación web
  *        Ejecutar como: Yo   ·   Quién tiene acceso: Cualquier persona
  *   4. Copia la URL (termina en /exec) y el token en js/config.js del sitio.

@@ -10,13 +10,13 @@
                    publicada como CSV lo devuelve al panel. Ver docs/CONEXION-GOOGLE.md §B
    ───────────────────────────────────────────────────────────── */
 window.SIM_CONFIG = {
-  backend: "local",
+  backend: "appsscript",
 
   // Opción "appsscript": URL de la implementación web (termina en /exec) y token compartido.
   // El token solo evita que cualquiera que encuentre la URL escriba por accidente;
   // como este sitio es público, NO es una medida de seguridad. No pongas datos sensibles.
-  appsScriptUrl: "",
-  token: "",
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbwTIgi7rJX7S83y-xfnLfvFLdbnGNQmLmwWDAwEkyUrTtS5rZNpYn4ImpebRKdToCc/exec",
+  token: "642885ad42ef47279a4f",
 
   // Opción "form": URL de envío del formulario (…/formResponse), campos entry.XXXX
   // y, para LEER, el CSV publicado de la hoja de respuestas.

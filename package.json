@@ -1,0 +1,12 @@
+{
+  "name": "simulacro-mipg-gachancipa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simulacro de autoevaluación del plan de mejoramiento MIPG V7 (sitio estático + Google Sheets)",
+  "scripts": {
+    "test": "node tests/test-datos.js && node tests/test-code-gs.js",
+    "mock": "node tests/mock-server.js 8766",
+    "mock:form": "node tests/mock-server.js 8767 form",
+    "serve": "python3 -m http.server 8000"
+  }
+}

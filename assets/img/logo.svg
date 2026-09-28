@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Simulacro MIPG">
+  <rect width="64" height="64" rx="16" fill="#0A8F7A"/>
+  <circle cx="46" cy="18" r="6" fill="#F5B700"/>
+  <path d="M10 44l10-12 8 7 10-14 8 9v18H10z" fill="#06594C" opacity=".55"/>
+  <path d="M16 46V30M26 46V24M36 46V33M46 46V27" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M12 51h40" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 20l5 5 9-10" fill="none" stroke="#F5B700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

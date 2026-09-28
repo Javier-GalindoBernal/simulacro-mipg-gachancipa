@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+_site/
+*.log
+# Nunca subas el vault ni fuentes con datos de la entidad
+fuentes-privadas/

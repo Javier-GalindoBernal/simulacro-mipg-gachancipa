@@ -7,7 +7,7 @@ Cada dependencia marca el checklist de sus preguntas FURAG con brecha y **regist
 - Los enlaces de evidencia y el avance se guardan en un **Google Sheet** (vía Apps Script) o en un **Google Form**.
 - Sin conexión configurada funciona igual, guardando en el navegador de cada persona (modo local).
 
-> **Alcance.** El simulacro no acredita cumplimiento ni sustituye el reporte FURAG. Las evidencias las valida la Oficina de Control Interno.
+> **Alcance.** El simulacro no acredita cumplimiento ni sustituye el reporte FURAG. Las evidencias las valida la Secretaría de Planeación y Servicios Públicos.
 
 ---
 

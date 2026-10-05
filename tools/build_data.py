@@ -116,7 +116,7 @@ def main(cron_path: str, seed_path: str) -> None:
             "aviso": (
                 "Datos de trabajo del plan de mejoramiento MIPG V7. El simulacro es una herramienta de "
                 "autoevaluación interna: no reemplaza el reporte FURAG ni acredita cumplimiento; las "
-                "evidencias las valida la Oficina de Control Interno."
+                "evidencias las valida la Secretaría de Planeación y Servicios Públicos."
             ),
         },
         "politicas": politicas,

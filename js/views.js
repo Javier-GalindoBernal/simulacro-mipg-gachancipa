@@ -425,7 +425,7 @@
       <div class="grid g2" style="margin-top:18px">
         <section class="card rv"><h3>Regla de «acción completa»</h3><p class="sub">Está en el código (core.js, función info)</p>
           <p>Avance = (opciones marcadas + 1 si hay al menos un enlace) ÷ (opciones pendientes + 1).<br>Una acción está <b>completa</b> cuando llega al 100 %. Las acciones condicionadas no cuentan en el indicador general hasta que su pregunta habilitante las active.</p>
-          <p class="foot-note">Es una autoevaluación de trabajo: <b>no acredita cumplimiento ni sustituye el reporte FURAG</b>. Las evidencias las valida la Oficina de Control Interno.</p></section>
+          <p class="foot-note">Es una autoevaluación de trabajo: <b>no acredita cumplimiento ni sustituye el reporte FURAG</b>. Las evidencias las valida la Secretaría de Planeación y Servicios Públicos.</p></section>
         <section class="card rv"><h3>Conexión y datos</h3><p class="sub">Dónde se guarda lo que registras</p>
           <p><b>Modo:</b> ${modoTxt}</p>
           <p><b>Pendientes de envío:</b> <span id="ay-cola">${S.st.cola.length}</span> · <b>Última sincronización:</b> ${S.st.ultimoSync ? new Date(S.st.ultimoSync).toLocaleString('es-CO') : '—'}</p>

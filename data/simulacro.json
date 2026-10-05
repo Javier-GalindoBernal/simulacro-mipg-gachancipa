@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "21101d341b7e3f2039ecaa7ee703939ddaead03fa4ce4b9005c366ed02505b35"
+    "sha256": "222094419e0657ab7029509077fa68300ae9665fe4d97c86469c704633634c21"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -346,7 +346,7 @@
    "id": "16",
    "fase": "Fase 7 · Cierre",
    "actividad": "Validar el cierre de cada acción contra su evidencia",
-   "dependencia": "Oficina de Control Interno",
+   "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2027-01-08",
    "fin": "2027-01-28",
    "entregable": "Informe de validación",

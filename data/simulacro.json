@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "fa8cc5a200ea81124b8eb12382355fddafa9ddd0e9a4853ab4f8114c233ccaf5"
+    "sha256": "b79a899ef4ee66023baee22c4f68da017005b1f547e62147ba6ed2c77e5f95a3"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -218,7 +218,7 @@
    "actividad": "Comunicar por oficio a cada dependencia las preguntas y brechas a su cargo",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-02",
-   "fin": "2026-10-07",
+   "fin": "2026-10-14",
    "entregable": "Cinco oficios de asignación",
    "nota": "Fecha de comunicación distinta en P8; ver Conciliaciones."
   },

@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "222094419e0657ab7029509077fa68300ae9665fe4d97c86469c704633634c21"
+    "sha256": "fa8cc5a200ea81124b8eb12382355fddafa9ddd0e9a4853ab4f8114c233ccaf5"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -228,7 +228,7 @@
    "actividad": "Designar por memorando la persona responsable de cada grupo de preguntas",
    "dependencia": "Cada dependencia líder",
    "inicio": "2026-10-02",
-   "fin": "2026-10-08",
+   "fin": "2026-10-19",
    "entregable": "Memorandos de designación",
    "nota": "Fecha de comunicación distinta en P8; ver Conciliaciones."
   },

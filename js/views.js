@@ -318,10 +318,10 @@
         const y = top + k * rh, col = FASE_PAL[faseIdx(h.fase)], xa = X(h.inicio), xb = X(h.fin) + px;
         if (k % 2 === 0) g += `<rect x="0" y="${y - 4}" width="${W}" height="${rh}" fill="var(--surface-2)" opacity=".7"/>`;
         g += `<g class="bar" data-h="${h.id}" tabindex="0" role="button" aria-label="${esc(h.actividad)}, ${S.rango(h.inicio, h.fin)}">
-          <text class="lbl" x="14" y="${y + 15}">${esc(trunc(h.actividad, 46))}</text>
+          <text class="lbl" x="14" y="${y + 15}">${h.estado === 'Cerrada' ? '<tspan style="fill:var(--ok, #1a7f37);font-weight:700">✓ </tspan>' + esc(trunc(h.actividad, 43)) : esc(trunc(h.actividad, 46))}</text>
           <text x="14" y="${y + 29}" style="font-size:11px;fill:var(--ink-3)">${esc(trunc(h.dependencia, 44))}</text>
           ${h.inicio === h.fin ? `<path d="M${xa + px / 2} ${y + 6} l10 10 -10 10 -10 -10z" fill="${col}"/>` : `<rect x="${xa}" y="${y + 7}" width="${Math.max(8, xb - xa)}" height="20" rx="8" fill="${col}"/>${xb + 118 > W ? `<text x="${xa - 6}" y="${y + 22}" text-anchor="end" style="font-size:11px">${S.rango(h.inicio, h.fin)}</text>` : `<text x="${xb + 6}" y="${y + 22}" style="font-size:11px">${S.rango(h.inicio, h.fin)}</text>`}`}
-          <title>${esc(h.actividad)} — ${S.rango(h.inicio, h.fin)}</title></g>`;
+          <title>${esc(h.actividad)} — ${S.rango(h.inicio, h.fin)}${h.estado === 'Cerrada' ? ' — Cumplido' : ''}</title></g>`;
       });
       const hoy = S.hoy();
       if (hoy >= x0 && hoy <= x1) g += `<line class="today" x1="${X(hoy)}" x2="${X(hoy)}" y1="34" y2="${Hh}"/><text x="${X(hoy) + 5}" y="${Hh - 4}" style="fill:var(--coral);font-weight:700">hoy</text>`;
@@ -331,13 +331,14 @@
       const mx = Math.max.apply(null, cont), semHoy = Math.floor(S.dias(x0, hoy) / 7);
       const hist = cont.map((n, k) => { const ini = isoD(new Date(S.d(x0).getTime() + k * 7 * 86400000)); return `<div class="${k === semHoy ? 'now' : ''}" data-h="${mx ? Math.round(n / mx * 100) : 0}px" title="Semana del ${S.fecha(ini)}: ${n} ${S.plural(n, 'vencimiento', 'vencimientos')}">${n ? `<span>${n}</span>` : ''}</div>`; }).join('');
 
-      const filas = H.map(h => `<tr><td class="mono">${esc(h.id)}</td><td>${esc(h.fase)}</td><td>${esc(h.actividad)}</td><td>${esc(h.dependencia)}</td><td style="white-space:nowrap">${S.rango(h.inicio, h.fin)}</td><td>${esc(h.entregable)}</td></tr>`).join('');
+      const estadoH = h => h.estado === 'Cerrada' ? '<strong style="color:var(--ok, #1a7f37)">✓ Cumplido</strong>' : esc(h.estado || 'No iniciada');
+      const filas = H.map(h => `<tr><td class="mono">${esc(h.id)}</td><td>${esc(h.fase)}</td><td>${esc(h.actividad)}</td><td>${esc(h.dependencia)}</td><td style="white-space:nowrap">${S.rango(h.inicio, h.fin)}</td><td>${esc(h.entregable)}</td><td>${estadoH(h)}</td></tr>`).join('');
       return `<div class="view">
       <div class="section-title"><div><h2>Cronograma del plan</h2><p>${H.length} hitos del ${S.fechaL(x0)} al ${S.fechaL(x1)}. Toca una barra para ver el entregable.</p></div></div>
       <div class="gantt rv"><svg viewBox="0 0 ${W} ${Hh}" role="img" aria-label="Diagrama de Gantt de los hitos del plan">${g}</svg></div>
       <section class="card rv" style="margin-top:18px"><h3>Carga de vencimientos por semana</h3><p class="sub">Cuántas acciones vencen cada semana (barra roja: la semana actual). Sirve para anticipar cuellos de botella.</p><div class="hist">${hist}</div></section>
       <div class="section-title rv"><div><h2>Hitos y entregables</h2></div></div>
-      <div class="tablewrap rv"><table><thead><tr><th>ID</th><th>Fase</th><th>Actividad</th><th>Responsable</th><th>Fechas</th><th>Entregable</th></tr></thead><tbody>${filas}</tbody></table></div></div>`;
+      <div class="tablewrap rv"><table><thead><tr><th>ID</th><th>Fase</th><th>Actividad</th><th>Responsable</th><th>Fechas</th><th>Entregable</th><th>Estado</th></tr></thead><tbody>${filas}</tbody></table></div></div>`;
     },
     mount(root) {
       U.animar(root);
@@ -346,6 +347,7 @@
         U.modal(`<h3>${esc(h.actividad)}</h3><p class="sub">${esc(h.fase)} · ${S.rango(h.inicio, h.fin)}</p>
           <div class="box"><h5>Responsable</h5><p>${esc(h.dependencia)}</p></div>
           <div class="box" style="margin-top:10px"><h5>Entregable</h5><p>${esc(h.entregable)}</p></div>
+          <div class="box" style="margin-top:10px"><h5>Estado</h5><p>${h.estado === 'Cerrada' ? '✓ Cumplido' : esc(h.estado || 'No iniciada')}${h.cierre ? ' — ' + esc(h.cierre) : ''}</p></div>
           ${h.nota ? `<div class="box" style="margin-top:10px"><h5>Nota</h5><p>${esc(h.nota)}</p></div>` : ''}
           <div class="mact"><button class="btn primary" data-close>Cerrar</button></div>`);
       };

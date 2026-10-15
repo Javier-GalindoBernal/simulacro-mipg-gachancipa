@@ -42,6 +42,7 @@ t('cada acción con política referencia una política existente; las sin polít
 });
 t('el conteo por política coincide con las acciones', () => D.politicas.forEach(p => assert.strictEqual(D.acciones.filter(a => a.politica === p.codigo).length, p.acciones, p.codigo)));
 t('cuatro dependencias líderes con acciones', () => assert.strictEqual(new Set(D.acciones.map(a => a.dependencia)).size, 4));
+t('hitos con estado válido; cerrados al 100 % (D-64)', () => D.hitos.forEach(h => { assert.ok(['No iniciada', 'En ejecución', 'Cerrada', 'Condicionado'].includes(h.estado), h.id); if (h.estado === 'Cerrada') assert.strictEqual(h.avance, 1, h.id); }));
 t('hitos con fechas válidas', () => D.hitos.forEach(h => { assert.ok(iso.test(h.inicio) && iso.test(h.fin) && h.inicio <= h.fin, h.id); }));
 t('los textos no traen marcado HTML (se escapan al pintar, pero no deben venir sucios)', () => D.acciones.forEach(a => ['pregunta', 'accion', 'entregable', 'evidencia', 'situacion'].forEach(k => assert.ok(!/<[a-z!\/]/i.test(a[k] || ''), a.id + '.' + k))));
 console.log(`\n${n} correctas · ${fallos} fallidas`); process.exit(fallos ? 1 : 0);

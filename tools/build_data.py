@@ -96,6 +96,9 @@ def main(cron_path: str, seed_path: str) -> None:
             "fin": h["fin"],
             "entregable": h["entregable"],
             "nota": h.get("nota") or "",
+            "estado": h.get("estado") or "No iniciada",
+            "avance": h.get("avance") or 0,
+            "cierre": h.get("cierre") or "",
         }
         for h in d["hitos"]
     ]

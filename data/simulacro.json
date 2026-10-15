@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "58b33448b7b7016abe671168d2533e4325f339092f59c6c46f120b974f888725"
+    "sha256": "5265d0a8422814eff7cab4264d29e4da25bc750d77ee2b1a5350efd11e3c86ff"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -232,7 +232,7 @@
    "nota": "Fecha de comunicación distinta en P8; ver Conciliaciones.",
    "estado": "Cerrada",
    "avance": 1,
-   "cierre": "Cerrado por el usuario el 15-oct-2026 (matriz viva P5, D-64)."
+   "cierre": "Cerrado el 15-oct-2026 por consenso: no se envían oficios porque todas las dependencias ya fueron notificadas de sus entregables y responsabilidades (D-64)."
   },
   {
    "id": "5",

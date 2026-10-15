@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "5265d0a8422814eff7cab4264d29e4da25bc750d77ee2b1a5350efd11e3c86ff"
+    "sha256": "3551e4a838298d76939568c1b1141b1ceffb3fc24e1ed59c37f904f59310bec5"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -243,9 +243,9 @@
    "fin": "2026-10-19",
    "entregable": "Memorandos de designación",
    "nota": "Fecha de comunicación distinta en P8; ver Conciliaciones.",
-   "estado": "No iniciada",
-   "avance": 0,
-   "cierre": ""
+   "estado": "Cerrada",
+   "avance": 1,
+   "cierre": "Cerrado el 15-oct-2026 por consenso: no se envían memorandos porque todas las dependencias ya fueron notificadas de sus entregables y responsabilidades (D-65)."
   },
   {
    "id": "6",

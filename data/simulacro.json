@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "f825298efe08923bcaad1a82cf855db72ad73ab345a37e846c478d38c6146084"
+    "sha256": "05fc52acbbbdf50ebea50a483d2922eb6e787be029e29cef7d602098fe51ace9"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -789,7 +789,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-11-03",
    "prioridad": 1,
    "pregunta": "Del total de otros procedimientos administrativos que tenía inscritos la entidad en el SUIT en la vigencia evaluada, cuántos podían realizarse:",
    "pagina": 58,
@@ -814,7 +814,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-11-03",
    "prioridad": 1,
    "pregunta": "Del total de otros procedimientos administrativos parcial y totalmente en línea, registrados en SUIT, ¿Cuántos permitían a los usuarios hacer seguimiento en línea?",
    "pagina": 59,
@@ -839,7 +839,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-11-03",
    "prioridad": 1,
    "pregunta": "Con respecto a los trámites de la entidad registrados en SUIT, disponibles total y parcialmente en línea, indique:",
    "pagina": 59,

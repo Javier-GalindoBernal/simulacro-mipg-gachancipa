@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "3551e4a838298d76939568c1b1141b1ceffb3fc24e1ed59c37f904f59310bec5"
+    "sha256": "f825298efe08923bcaad1a82cf855db72ad73ab345a37e846c478d38c6146084"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -258,7 +258,7 @@
    "nota": "",
    "estado": "Cerrada",
    "avance": 1,
-   "cierre": "Cerrado por el usuario el 15-oct-2026 con el formulario FURAG diligenciado como evidencia (D-63)."
+   "cierre": "Cerrado el 15-oct-2026. Soporte: formulario FURAG diligenciado, https://drive.google.com/file/d/1ygAz_DGt-bMT_ImYMIWCZHOLlfUDpgdP/view (D-63)."
   },
   {
    "id": "7",

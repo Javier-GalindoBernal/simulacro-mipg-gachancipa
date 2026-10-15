@@ -41,7 +41,8 @@ t('cada acción con política referencia una política existente; las sin polít
   D.acciones.forEach(a => { if (a.politica) assert.ok(pols.has(a.politica), a.id); else assert.ok(/Transversal/.test(a.dimension), a.id + ' sin política y no transversal'); });
 });
 t('el conteo por política coincide con las acciones', () => D.politicas.forEach(p => assert.strictEqual(D.acciones.filter(a => a.politica === p.codigo).length, p.acciones, p.codigo)));
-t('cuatro dependencias líderes con acciones', () => assert.strictEqual(new Set(D.acciones.map(a => a.dependencia)).size, 4));
+t('cinco dependencias líderes con acciones (D-69: Gobierno lidera POL13)', () => assert.strictEqual(new Set(D.acciones.map(a => a.dependencia)).size, 5));
+t('D-69: Participación Ciudadana (POL13) completa en Gobierno: 14 acciones PCI', () => { const g = D.acciones.filter(a => a.dependencia === 'Secretaría de Gobierno'); assert.strictEqual(g.length, 14); assert.ok(g.every(a => /^PCI/.test(a.id))); });
 t('hitos con estado válido; cerrados al 100 % (D-64)', () => D.hitos.forEach(h => { assert.ok(['No iniciada', 'En ejecución', 'Cerrada', 'Condicionado'].includes(h.estado), h.id); if (h.estado === 'Cerrada') assert.strictEqual(h.avance, 1, h.id); }));
 t('hitos con fechas válidas', () => D.hitos.forEach(h => { assert.ok(iso.test(h.inicio) && iso.test(h.fin) && h.inicio <= h.fin, h.id); }));
 t('los textos no traen marcado HTML (se escapan al pintar, pero no deben venir sucios)', () => D.acciones.forEach(a => ['pregunta', 'accion', 'entregable', 'evidencia', 'situacion'].forEach(k => assert.ok(!/<[a-z!\/]/i.test(a[k] || ''), a.id + '.' + k))));

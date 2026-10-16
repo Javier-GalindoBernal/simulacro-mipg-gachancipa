@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "ac96b9242df05686e8229fe25c95b1728da194372a9e30d5c413b142653c8656"
+    "sha256": "a146163bbbc956af522c2913ba56c48d96ee10fb0c0224aa2a5ad900f0708190"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -437,7 +437,7 @@
    "dimension": "Gestión del Conocimiento, la Innovación y la Memoria Pública",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-10-24",
    "prioridad": 1,
    "pregunta": "Respecto al desarrollo de actividades de investigación durante la vigencia evaluada, la entidad:",
    "pagina": 95,
@@ -494,7 +494,7 @@
    "dimension": "Gestión del Conocimiento, la Innovación y la Memoria Pública",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-10-24",
    "prioridad": 1,
    "pregunta": "¿Cuáles son las fortalezas para innovar dentro de la entidad?",
    "pagina": 97,
@@ -744,7 +744,7 @@
    "dimension": "Talento Humano",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-10-24",
    "prioridad": 1,
    "pregunta": "Para la gestión preventiva de conflicto de interés, la entidad definió una estrategia o acciones específicas para:",
    "pagina": 18,
@@ -1102,7 +1102,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-14",
+   "fin": "2026-10-24",
    "prioridad": 1,
    "pregunta": "En la entidad, la dependencia encargada del servicio y el relacionamiento con la ciudadanía tuvo dentro de sus responsabilidades:",
    "pagina": 54,

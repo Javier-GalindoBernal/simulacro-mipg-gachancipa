@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "ed14d9b5be9e751183d857c49a002e62cebb7260aa801e095723d594ef78bf45"
+    "sha256": "ff213b75b32cb38f59d019eff9503419edbbe3a028951bd44ac9e3e69dfda911"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -282,9 +282,9 @@
    "fin": "2026-10-19",
    "entregable": "Informe de corte 1",
    "nota": "",
-   "estado": "No iniciada",
-   "avance": 0,
-   "cierre": ""
+   "estado": "Cerrada",
+   "avance": 1,
+   "cierre": "Cerrado el 21-oct-2026 con el informe de corte 1 como soporte (D-73): https://drive.google.com/file/d/13WvPGCbOINHnjCMNRt-i7484agbGOrH8/view"
   },
   {
    "id": "11",

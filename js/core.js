@@ -98,7 +98,8 @@
     return {
       a, pend, ok, hechas, pasos, hechos, evs, pct, lista,
       estado: lista ? 'lista' : (hechas > 0 || evs.length > 0) ? 'curso' : 'pendiente',
-      dias, vencida: !lista && dias < 0, proxima: !lista && dias >= 0 && dias <= 14,
+      // D-75: con plazo cumplido y avance > 60 % no es rezago: aviso para completar el 100 %.
+      dias, vencida: !lista && dias < 0 && pct <= 0.6, avanceAlto: !lista && dias < 0 && pct > 0.6, proxima: !lista && dias >= 0 && dias <= 14,
       aunNo: S.dias(hoy, a.inicio) > 0, condicionada: !!a.condicionada_a, actualizado: e.actualizado || null
     };
   };

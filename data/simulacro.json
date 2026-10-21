@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "ff213b75b32cb38f59d019eff9503419edbbe3a028951bd44ac9e3e69dfda911"
+    "sha256": "6cfb6e9f38e11d368dcb2f33144ba044415b90281932e98bfadec324bc6744fd"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -547,7 +547,7 @@
    "dimension": "Gestión del Conocimiento, la Innovación y la Memoria Pública",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-20",
+   "fin": "2026-10-28",
    "prioridad": 1,
    "pregunta": "Para mitigar el riesgo de fuga de conocimiento, la entidad desarrollo las siguientes acciones:",
    "pagina": 98,
@@ -592,7 +592,7 @@
    "dimension": "Gestión del Conocimiento, la Innovación y la Memoria Pública",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-20",
+   "fin": "2026-10-28",
    "prioridad": 1,
    "pregunta": "¿Mediante qué acciones la entidad colaboró con otras entidades para la producción y generación de datos, información, investigaciones, desarrollos tecnológicos y documentos?",
    "pagina": 98,
@@ -876,7 +876,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2026-10-09",
-   "fin": "2026-10-20",
+   "fin": "2026-10-28",
    "prioridad": 1,
    "pregunta": "Con respecto a los Otros Procedimientos Administrativos - OPAS de la entidad, indique:",
    "pagina": 60,
@@ -905,7 +905,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2026-10-09",
-   "fin": "2026-10-20",
+   "fin": "2026-10-28",
    "prioridad": 1,
    "pregunta": "Con respecto a las consultas de acceso a información pública de la entidad, indique:",
    "pagina": 60,
@@ -934,7 +934,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría de Planeación y Servicios Públicos",
    "inicio": "2026-10-09",
-   "fin": "2026-10-20",
+   "fin": "2026-10-28",
    "prioridad": 1,
    "pregunta": "El servicio de Carpeta Ciudadana Digital le ha permitido a la entidad:",
    "pagina": 61,
@@ -1175,7 +1175,7 @@
    "dimension": "Relación Estado-Ciudadanías",
    "dependencia": "Secretaría General",
    "inicio": "2026-10-09",
-   "fin": "2026-10-20",
+   "fin": "2026-10-28",
    "prioridad": 1,
    "pregunta": "Para el desarrollo o participación en jornadas itinerantes o alternativas de relacionamiento con las ciudadanías, la entidad:",
    "pagina": 55,

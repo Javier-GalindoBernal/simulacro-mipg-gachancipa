@@ -24,7 +24,7 @@
   };
   const faseIdx = n => { const m = /Fase (\d+)/.exec(n); return m ? +m[1] - 1 : 8; };
 
-  const badgeDia = i => i.vencida ? `<span class="tag bad">${icon('i-alert')} Vencida hace ${-i.dias} d</span>` : i.lista ? `<span class="tag ok">${icon('i-check')} Completa</span>` : i.proxima ? `<span class="tag warn">${icon('i-clock')} Vence en ${i.dias} d</span>` : i.aunNo ? `<span class="tag">Inicia ${S.fecha(i.a.inicio)}</span>` : '';
+  const badgeDia = i => i.avanceAlto ? `<span class="tag p3">${icon('i-clock')} Avance alto: completar al 100 %</span>` : i.vencida ? `<span class="tag bad">${icon('i-alert')} Vencida hace ${-i.dias} d</span>` : i.lista ? `<span class="tag ok">${icon('i-check')} Completa</span>` : i.proxima ? `<span class="tag warn">${icon('i-clock')} Vence en ${i.dias} d</span>` : i.aunNo ? `<span class="tag">Inicia ${S.fecha(i.a.inicio)}</span>` : '';
 
   /* ═════════════════════════ PANEL ═════════════════════════ */
   V.panel = {

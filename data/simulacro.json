@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "ffd1f9eda8539d1b6feed2aa24be6464d9770497823963f104eb25ad0f48a70b"
+    "sha256": "10d7d539d9a42ab8ec690628b2dcb0dbfab4f9aa4ad740a9740fc4e3775c8076"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -1390,7 +1390,7 @@
    "id": "EMI11",
    "politica": null,
    "dimension": "Transversal — cruce por validar",
-   "dependencia": "Secretaría de Planeación y Servicios Públicos",
+   "dependencia": "Secretaría General",
    "inicio": "2026-10-23",
    "fin": "2026-10-31",
    "prioridad": 2,
@@ -1419,7 +1419,7 @@
    "id": "EMI12",
    "politica": null,
    "dimension": "Transversal — cruce por validar",
-   "dependencia": "Secretaría de Planeación y Servicios Públicos",
+   "dependencia": "Secretaría General",
    "inicio": "2026-10-23",
    "fin": "2026-10-31",
    "prioridad": 2,
@@ -1460,7 +1460,7 @@
    "id": "EMI25",
    "politica": null,
    "dimension": "Transversal — cruce por validar",
-   "dependencia": "Secretaría de Planeación y Servicios Públicos",
+   "dependencia": "Secretaría General",
    "inicio": "2026-10-23",
    "fin": "2026-10-31",
    "prioridad": 2,
@@ -1505,7 +1505,7 @@
    "id": "EMI31",
    "politica": null,
    "dimension": "Transversal — cruce por validar",
-   "dependencia": "Secretaría de Planeación y Servicios Públicos",
+   "dependencia": "Secretaría General",
    "inicio": "2026-10-23",
    "fin": "2026-10-31",
    "prioridad": 2,
@@ -1538,7 +1538,7 @@
    "id": "EMI32",
    "politica": null,
    "dimension": "Transversal — cruce por validar",
-   "dependencia": "Secretaría de Planeación y Servicios Públicos",
+   "dependencia": "Secretaría General",
    "inicio": "2026-10-23",
    "fin": "2026-10-31",
    "prioridad": 2,

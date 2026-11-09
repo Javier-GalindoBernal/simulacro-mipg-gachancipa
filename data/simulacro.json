@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "df48ec7b6511be622c75f15b9991ac2ec8e0c6ddcd4306d2ee7981e20fe597d6"
+    "sha256": "f327e87e28b3ecaa2c3a8bd182da5df67fe43ba8bc76d2f92f9775e289c65772"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -266,9 +266,9 @@
    "actividad": "Ejecutar las 22 acciones de prioridad crítica",
    "dependencia": "Todas las dependencias líderes",
    "inicio": "2026-10-09",
-   "fin": "2026-10-30",
+   "fin": "2026-11-04",
    "entregable": "Soportes de ejecución de 22 acciones",
-   "nota": "Cantidad conciliada con P2; fechas de P5 conservadas.",
+   "nota": "Cantidad conciliada con P2; fechas de P5 conservadas. Fin movido del 30-oct al 4-nov para alinearlo con la prórroga de sus acciones (D-93).",
    "estado": "No iniciada",
    "avance": 0,
    "cierre": ""

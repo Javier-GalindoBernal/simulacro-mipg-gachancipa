@@ -10,7 +10,7 @@
   "fuentes": {
    "cronograma_v7": {
     "archivo": "datos-cronograma.json",
-    "sha256": "f327e87e28b3ecaa2c3a8bd182da5df67fe43ba8bc76d2f92f9775e289c65772"
+    "sha256": "b7ded53dc911306d56a66d7e5afc6039a16a2c25c6200c7450f7ddf2afd0ee30"
    },
    "checklist_formulario": {
     "archivo": "simulacro-furag-2026-09-09.html",
@@ -2702,7 +2702,7 @@
    "situacion": "La entidad marcó una opción de incumplimiento",
    "accion": "Implementar la actividad que la entidad declaró no realizar, y dejar la evidencia documental que la soporte.",
    "entregable": "Soporte documental de la actividad, con fecha dentro de la vigencia",
-   "evidencia": "Acto administrativo o instrumento que formalice la actividad implementada",
+   "evidencia": "Certificación de TI o del proveedor que indique el gestor de base de datos (motor y versión) que administra cada registro administrativo, con pantallazo del sistema y fecha (modelo: archivo 08 del kit GES)",
    "opciones": [
     [
      "Oracle",
